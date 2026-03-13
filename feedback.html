@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form class="first">
+        <ol id="list">
+            <li>
+                How often do you visit? </li>
+
+            </li>
+                <label for="Daily" id="label">Daily</label>
+                <input type="radio" id="Daily" name="recomended" value="Daily">
+                <label for="Weekly"  id="label">Weekly</label>
+                <input type="radio" id="Weekly" name="recomended" value="Weekly">
+                <label for="Monthly" id="label">Monthly</label>
+                <input type="radio" id="Monthly" name="recomended" value="Monthly"><br>
+            <li>What do you like?</li>
+                
+                <label for="content" id="label">content</label>
+                <input type="checkbox"  class="second" id="content" name="content" value="content">
+                <label for="design" id="label">design</label>
+                <input type="checkbox" class="second" id="design" name="design" value="design">
+                <label for="speed" id="label">speed</label>
+                <input type="checkbox" class="second" id="speed" name="speed" value="speed">
+                <label for="feature" id="label">Feature</label>
+                <input type="checkbox" class="second" id="feature" name="feature" value="feature">
+                <label for="ease of use" id="label">ease of use</label>
+                <input type="checkbox" class="second" id="ease of use" name="ease of use" value="ease of use">
+<br>
+
+            <li>How would you rate us?</li>   
+                <select name="rating" id="rating">
+                    <option value="*">⭐</option>
+                    <option value="**">⭐⭐</option>
+                    <option value="***">⭐⭐⭐</option>
+                    <option value="****">⭐⭐⭐⭐</option>
+                    <option value="*****">⭐⭐⭐⭐⭐</option>
+                </select>
+                <br>
+            <li>Suggestions:</li>  
+                <textarea name="suggestion" id="suggestion" cols="10" rows="5"></textarea><br>
+
+
+            <li>Would you recommend us?
+
+            </li>   
+                <label for="Yes" id="label">Yes</label>
+                <input type="radio" id="Yes" name="recommend" value="Yes">
+                <label for="No" id="label">No</label>
+                <input type="radio" id="No" name="recommend" value="No"> 
+                <label for="Maybe" id="label">Maybe</label>
+                <input type="radio" id="Maybe" name="recommend" value="Maybe">
+                <br>
+            <button type="submit">Submit Survey</button>    
+
+            
+        </ol>
+    </form>
+</body>
+</html>

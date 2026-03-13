@@ -1,0 +1,20 @@
+#main-title {
+    color:blue;
+}
+.section{
+    background-color:lightgrey
+}
+p{
+    font-size:16px;
+
+}
+.intro{
+    font-style: italic;
+}
+.special{
+   background-color: green;
+
+}
+button{
+    font-weight: bold;
+}
